@@ -46,10 +46,14 @@ export const VideoCardList = styled.ul`
     margin-right: 16px;
   }
   &::-webkit-scrollbar{
-    width: 0;
+    background-color:gray;
+    height:4px;
+  } 
+  &::-webkit-scrollbar-thumb{
+    width: 1px;    
+    background-color:#000;
   }
-  
-`;
+ `;
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
