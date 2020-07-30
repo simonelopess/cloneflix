@@ -13,14 +13,14 @@ const Container = styled.ul`
         margin:auto;
         width:30px;
         height:30px;
-        transform: initial;
+        transform: initial;           
         &:before{
             font-size:30px;
         }
     }
 
     .slick-prev{
-        left:0;        
+        left:0;   
     }
     .slick-next{
         right: 16px;
@@ -46,6 +46,7 @@ const Slider = ({children}) =>(
             centerMode:false,
             variableWidth:true, 
             adaptiveHeight:true,
+            
         }}
         >
         {children}
